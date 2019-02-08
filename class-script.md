@@ -73,9 +73,9 @@ Branching and merging. A larger sandbox. You can branch a copy of your code into
 
 There are a number of Version Control Systems out there. Three of the most popular version control systems are:
 
-Git
-Subversion
-Mercurial
+ - Git
+ - Subversion
+ - Mercurial
 
 There are two main types of version control system models:
 
