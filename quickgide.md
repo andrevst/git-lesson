@@ -3,24 +3,73 @@
 
 ## Version control
 
-The main point of a version control system is to help you maintain a detailed history of the project as well as the ability to work on different versions of it. Having a detailed history of a project is important because it lets you see the progress of the project over time. If needed, you can also jump back to any point in the project to recover data or files.
+The main point of a version control system is help to maintain a detailed history of the project as well as the ability to work on different versions of it. 
 
-![git version](./gitImages/work.png)
+*You’ve probably created your own version control system without realizing it. Got any files like this?*
+
+MyResumeOct2015.doc
+- MyResumeResumeMar2016.doc
+- logov3.png
+- logov4.png
+- logo-old.png
+
+Our shared folder/naming system is fine for class projects or one-time papers. But for software development? No way, it's almost impossible to work that way and too risk.
+
+Large, fast-changing projects with many authors need a Version Control System to track changes and avoid general chaos. A good VCS does the following:
+
+- Backup and Restore. Files are saved as they are edited, and you can jump to any moment in time. Need that file as it was on Feb 23, 2007? No problem.
+
+- Synchronization. Lets people share files and stay up-to-date with the latest version.
+
+- Short-term undo. Monkeying with a file and messed it up? (That’s just like you, isn’t it?). Throw away your changes and go back to the “last known good” version in the database.
+
+- Long-term undo. Sometimes we mess up bad. Suppose you made a change a year ago, and it had a bug. Jump back to the old version, and see what change was made that day.
+
+- Track Changes. As files are updated, you can leave messages explaining why the change happened (stored in the VCS, not the file). This makes it easy to see how a file is evolving over time, and why.
+
+- Track Ownership. A VCS tags every change with the name of the person who made it. 
+
+- Sandboxing, or insurance against yourself. Making a big change? You can make temporary changes in an isolated area, test and work out the kinks before “checking in” your changes.
+
+- Branching and merging. A larger sandbox. You can branch a copy of your code into a separate area and modify it in isolation (tracking changes separately). Later, you can merge your work back into the common area.
+
+There are a number of Version Control Systems out there. Three of the most popular version control systems are:
+
+ - Git
+ - Subversion
+ - Mercurial
+
+And there are two main models of vcs:
+
+- the centralized model - all users connect to a central, master repository
+- the distributed model - each user has the entire repository on their computer
 
 ## Git
 
-Distributed version control tool.
+- First developed by Linux Kernel Creator, Linus Torvalds.
+
+- Git is a distributed VSC, so there is no singular centralized code base that the code can be pulled from.
+
+- As a fast and efficient system, many developers and open-source projects use Git to power their repos.
 
 ## Github
 
-Git projects host service.
+- GitHub is a Git repository hosting service, but it adds some of its own features. 
+
+- It provides access control and several collaboration features, such as wikis and basic task management tools for every project.
+
+The flagship functionality of GitHub is Forking. Which is the ability to copy a repository from one user’s account to another. 
+
+If you make changes you’d like to share, you can send a notification called a “pull request” to the original owner. 
+
+That user can then, with a click of a button, merge the changes found in your repo with the original repo.
+
+These three features – fork, pull request and merge – are what make GitHub so powerful.
+
 
 ## Terminology
 
-Version Control System / Source Code Manager
-A version control system (abbreviated as VCS) is a tool that manages different versions of source code. A source code manager (abbreviated as SCM) is another name for a version control system.
-
-Git is an SCM (and therefore a VCS!). The URL for the Git website is https://git-scm.com/ (see how it has "SCM" directly in its domain!).
+Git have so many functionalities so above are the basic terminology to understand how git works.
 
 ### Commit
 
@@ -52,14 +101,16 @@ A SHA is basically an ID number for each commit. Here's what a commit's SHA migh
 
 It is a 40-character string composed of characters (0–9 and a–f) and calculated based on the contents of a file or directory structure in Git. "SHA" is shorthand for "Secure Hash Algorithm". If you're interested in learning about hashes, check out our Intro to Computer Science course.
 
-Branch
+## Branch
 A branch is when a new line of development is created that diverges from the main line of development. This alternative line of development can continue without altering the main line.
 
 Going back to the example of save point in a game, you can think of a branch as where you make a save point in your game and then decide to try out a risky move in the game. If the risky move doesn't pan out, then you can just go back to the save point. The key thing that makes branches incredibly powerful is that you can make save points on one branch, and then switch to a different branch and make save points there, too.
 
 With this terminology in mind, let's take a high-level look at how we'll be using Git by looking at the typical workflow when working with version control.
 
-## Commands
+## Basic Commands
+
+Now I will show you some basic commands to understand how to work on Git.
 
 
 ### Git Init

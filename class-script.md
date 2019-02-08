@@ -1,52 +1,37 @@
-INTRODUCTION
+##INTRODUCTION
 
 Hello developers,
 
 Welcome to our first session at the Full Stack Web Developer Nanodegree.
 
-My name is Andre and I'll be your mentor on this program. 
+My name is Andre and I'll be your mentor here. 
 
-For today, Udacity requested me to prepare a short teaching session for you introducing a topic you will learn at the Nanodegree.
+For today, Udacity requested me to prepare a short teaching session for you introducing a topic you will learn during the Nanodegree.
 
 But, since it's our first time together, let me introduce myself.
 
-When I'm not mentoring for Udacity, I am a full stack developer working with some cool stuff like Python, NodeJS, React and Blockchain creating business solutions for a really complex enterprise architecture, working with new and legacy systems hosted on Cloud and Mainframe.
+When I'm not mentoring for Udacity, I am a full stack developer working with some cool stuff like Python, NodeJS, ReactJS and Blockchain creating business solutions for a really complex enterprise architecture, working with new and legacy systems hosted on Cloud and Mainframe.
 
-well, you might be wondering how we manage all changes in our projects and source codes.
+well, you might be wondering how do we manage all changes in our source codes.
 
 That's why, I decide to cover one of my favorites topics in the Nanodegree. Version Control.
 
 We will talk about version control systems, git and then I'll show you some tips about GitHub.
 
-AGENDA
+##AGENDA
 
-So today we will cover Version Control Systems, Git and a bit about Github
+So today we will cover Version Control, Git and a bit about Github
 
 First I'll give you a brief explanation on what is a VCS and it's importance 
 then we will talk about Git how it works and I'll show you some terminologies and a quick guide to starting using it.
 Finally, we will talk about GitHub, what is GitHub, and the greatest functions it has
 I hope you enjoy the trip.
 
-VERSION CONTROL
+##VERSION CONTROL
 
 You might already know a bit about version control. 
 
-But if you don't, don't worry, a Version Control System is just software that helps you control (or manage) the different versions.. of something like a source code.
-
-There are a number of Version Control Systems out there. Three of the most popular version control systems are:
-
-Git
-Subversion
-Mercurial
-
-There are two main types of version control system models:
-
-the centralized model - all users connect to a central, master repository
-the distributed model - each user has the entire repository on their computer
-
-So now we know that Version Control (aka Revision Control aka Source Control) let us track our files over time. Why is it important? Well, resuming it in one sentence, I can say:
-
-"When we mess things up we can easily get back to a previous working version."
+But if you don't, don't worry, a Version Control System is just software that helps you control (or manage) the different versions of something, like a source code.
 
 You’ve probably created your own version control system without realizing it. Got any files like this? 
 
@@ -70,14 +55,36 @@ Our shared folder/naming system is fine for class projects or one-time papers. B
 
 Large, fast-changing projects with many authors need a Version Control System to track changes and avoid general chaos. A good VCS does the following:
 
-Backup and Restore. Files are saved as they are edited, and you can jump to any moment in time. Need that file as it was on Feb 23, 2007? No problem.
-Synchronization. Lets people share files and stay up-to-date with the latest version.
-Short-term undo. Monkeying with a file and messed it up? (That’s just like you, isn’t it?). Throw away your changes and go back to the “last known good” version in the database.
-Long-term undo. Sometimes we mess up bad. Suppose you made a change a year ago, and it had a bug. Jump back to the old version, and see what change was made that day.
-Track Changes. As files are updated, you can leave messages explaining why the change happened (stored in the VCS, not the file). This makes it easy to see how a file is evolving over time, and why.
-Track Ownership. A VCS tags every change with the name of the person who made it. 
+- Backup and Restore. Files are saved as they are edited, and you can jump to any moment in time. Need that file as it was on Feb 23, 2007? No problem.
+
+- Synchronization. Lets people share files and stay up-to-date with the latest version.
+
+- Short-term undo. Monkeying with a file and messed it up? (That’s just like you, isn’t it?). Throw away your changes and go back to the “last known good” version in the database.
+
+- Long-term undo. Sometimes we mess up bad. Suppose you made a change a year ago, and it had a bug. Jump back to the old version, and see what change was made that day.
+
+- Track Changes. As files are updated, you can leave messages explaining why the change happened (stored in the VCS, not the file). This makes it easy to see how a file is evolving over time, and why.
+
+- Track Ownership. A VCS tags every change with the name of the person who made it. 
+
 Sandboxing, or insurance against yourself. Making a big change? You can make temporary changes in an isolated area, test and work out the kinks before “checking in” your changes.
+
 Branching and merging. A larger sandbox. You can branch a copy of your code into a separate area and modify it in isolation (tracking changes separately). Later, you can merge your work back into the common area.
+
+There are a number of Version Control Systems out there. Three of the most popular version control systems are:
+
+Git
+Subversion
+Mercurial
+
+There are two main types of version control system models:
+
+the centralized model - all users connect to a central, master repository
+the distributed model - each user has the entire repository on their computer
+
+So now we know that Version Control (aka Revision Control aka Source Control) let us track our files over time. Why is it important? Well, resuming it in one sentence, I can say:
+
+"When we mess things up we can easily get back to a previous working version."
 
 During the Nanodegree, we'll be using Git which is a distributed version control system. 
 Git was first developed by Linux Kernel Creator, Linus Torvalds.
@@ -153,19 +160,3 @@ GitHub is a code hosting platform for collaboration and version control.
 GitHub lets you (and others) work together on projects.
 
 Finally GitHub has its own features that put the collaborative work in a hole new level.
-
-
-create a new repository
-create a new directory, open it and perform a 
-git init
-to create a new git repository.
-
-checkout a repository
-create a working copy of a local repository by running the command
-git clone /path/to/repository
-when using a remote server, your command will be
-git clone username@host:/path/to/repository
-
-workflow
-your local repository consists of three "trees" maintained by git. the first one is your Working Directory which holds the actual files. the second one is the Index which acts as a staging area and finally the HEAD which points to the last commit you've made.
-
