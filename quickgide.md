@@ -5,17 +5,19 @@
 
 The main point of a version control system is help to maintain a detailed history of the project as well as the ability to work on different versions of it. 
 
-*You’ve probably created your own version control system without realizing it. Got any files like this?*
+*Got any files like this?*
 
-MyResumeOct2015.doc
+- MyResumeOct2015.doc
 - MyResumeResumeMar2016.doc
 - logov3.png
 - logov4.png
 - logo-old.png
 
-Our shared folder/naming system is fine for class projects or one-time papers. But for software development? No way, it's almost impossible to work that way and too risk.
+Maybe a folder/naming system is fine for a resume file or an image but for software development it's almost impossible and too risk to work that way.
 
-Large, fast-changing projects with many authors need a Version Control System to track changes and avoid general chaos. A good VCS does the following:
+Large, fast-changing projects with many authors need a Version Control System to track changes and avoid general chaos. 
+
+A good VCS does the following:
 
 - Backup and Restore. Files are saved as they are edited, and you can jump to any moment in time. Need that file as it was on Feb 23, 2007? No problem.
 
