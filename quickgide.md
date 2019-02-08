@@ -3,7 +3,7 @@
 
 ## Version control
 
-The main point of a version control system is help to maintain a detailed history of the project as well as the ability to work on different versions of it. 
+The main point of a version control system support us to maintain a detailed history of the project as well as the ability to work on different versions of it. 
 
 *Got any files like this?*
 
