@@ -5,7 +5,7 @@
 
 The main point of a version control system support us to maintain a detailed history of the project as well as the ability to work on different versions of it. 
 
-*Got any files like this?*
+*You've probably already created your oun VSC. Don't you have any files like this?*
 
 - MyResumeOct2015.doc
 - MyResumeResumeMar2016.doc
